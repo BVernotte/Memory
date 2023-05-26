@@ -206,9 +206,9 @@ document.getElementById("firstpage").appendChild(thirdd);
 
 
 
-//Hidden sur gamearea
-const gamearea = document.getElementById("gamearea");
-gamearea.classList.add("hidden");
+// //Hidden sur gamearea
+// const gamearea = document.getElementById("gamearea");
+// gamearea.classList.add("hidden");
 
 // Variables du jeu
 // Cartes retournées
@@ -383,4 +383,10 @@ document.addEventListener("DOMContentLoaded", function () {
         generateCards(8, 8);
         totalPairs = 32;
     });
+
 });
+
+
+// const timer = document.createElement("div");
+// timer.innerHTML = "00:00";
+// document.getElementById("gamearea").appendChild(timer);
